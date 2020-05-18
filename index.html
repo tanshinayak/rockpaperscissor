@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <div class='heading' id='heading'>
+            <h1>Rock Paper Scissors</h1>
+            <h3 id='h3'> 5 rounds</h3>
+        </div>
+        <div class='result' id='result'>
+            <div class='user' id='user'>
+                <label class='you'>You</label>
+                <div class='marksuser' id='marksuser'>0</div>
+            </div>
+            <div class='show' id='show'>Let's Start the Game....!!</div>
+            <div class='computer' id='computer'>
+                <label class='you'>Computer</label>
+                <div class='markscomputer' id='markscomputer'>0</div>
+            </div>
+        </div><br>
+        <div class='choose' id='choose'>
+            <div class='rock' id='rockdiv'>
+              <img src='images/rock.jfif'><br>
+            <button class='btn' id='rock'>Rock</button>
+            </div>
+            <div class='paper' id='paperdiv'>
+          <img src='images/paper.jfif'><br>
+          <button class='btn' id='paper'>Paper</button></div>
+          <div class='scissor' id='scissordiv'>
+          <img src='images/scissor.png'><br>
+          <button class='btn' id='scissor'>Scissor</button></div>
+        </div>
+        <button class='reset' id='reset' onclick='start()'>Start</button>
+        <script type='text/javascript' src='main.js'></script>
+    </body>
+</html>
